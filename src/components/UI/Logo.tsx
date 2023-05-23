@@ -7,8 +7,7 @@ interface LogoProps {
 
 const Logo: React.FC<LogoProps> = ({ color, width }) => {
   return (
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill={color} x="0px"
-      y="0px" viewBox="0 0 800.5 179.4" width={width}>
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill={color} x="0px" y="0px" viewBox="0 0 800.5 179.4" width={width}>
       <g>
         <path className="st0" d="M169.6,56.1c0.9-0.4,1.9-0.7,2.8-1.2c2.9-1.5,5.9-2.7,8.9-4c2.3-1,4.6-2.1,7-3c4.8-2,9.5-4.2,14.3-6.3
           c1.8-0.8,3.4-1.7,5.2-2.5c1.6-0.7,3.2-1.5,4.7-2.3c5.6-2.9,10.9-6.2,15-11c1.4-1.6,2.7-3.3,3-5.5c0-0.1,0.1-0.2,0.1-0.2
